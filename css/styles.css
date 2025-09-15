@@ -46,8 +46,7 @@ body {
   text-decoration: none;
 }
 
-main h1,
-main h3 {
+main h1 {
   font-family: "KoHo", sans-serif;
   color: #f1f1f1;
 }
@@ -58,23 +57,30 @@ main h2 {
   font-weight: 700;
   font-size: 7em;
   margin-bottom: 1em;
-  text-align: center;
 }
 
-main form,
-main section {
+main p {
+  font-family: "KoHo", sans-serif;
+  color: #f1f1f1;
+  font-size: 1.5em;
+}
+
+main form {
   padding: 1.5em;
   margin-bottom: 2em;
 }
 
-/* Form fields */
+main form p {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+
 main form .form-control {
   background-color: #add8e6;
   color: #f1f1f1;
 }
 
-main form .btn,
-main section .btn {
+main form .btn {
   background-color: #add8e6;
   color: white;
   border: none;
