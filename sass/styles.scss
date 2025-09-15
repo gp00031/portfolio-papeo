@@ -1,0 +1,99 @@
+
+body {
+    background-color: #C5BABA; 
+  }
+
+
+.navbar {
+    background-color: #add8e6; 
+    padding: 1em ;
+  
+    .nav-link {
+      color: #f1f1f1;
+      font-weight: 500;
+  
+      &:hover {
+        color: #707070;
+      }
+    }
+  
+    .logo-img {
+      height: 50px; 
+      width: auto;
+    }
+  }
+  
+  
+  .main-title {
+    font-family: 'Anton', sans-serif;
+    font-size: 7em;
+    margin-bottom: 0.05em;
+    color: #f1f1f1;
+  }
+  
+  .intro-text {
+    font-family: 'KoHo', sans-serif;
+    font-size: 2em;
+    margin-bottom: 4em;
+    color:#707070;
+  }
+  
+ 
+  
+  // footer//
+  .footer {
+    background-color: #707070;
+    font-family: 'KoHo', sans-serif;
+
+     p {
+        color:#f1f1f1; 
+        margin-top: 1.5em;
+      }    
+  
+    .social-icons a {
+      margin: 1.5em;
+      color: #f1f1f1;
+      text-decoration: none;
+
+    }
+  }
+
+
+  //contact page//
+
+  main h1,
+  main h3 {
+    font-family: 'KoHo', sans-serif;
+    color:#f1f1f1;
+  }
+  main h2 {
+    font-family: 'KoHo', sans-serif;
+    color:#f1f1f1;
+    font-weight: 700;     
+    font-size: 7em;       
+    margin-bottom: 1em;   
+    text-align: center;    
+  }
+
+  
+
+  main form,
+  main section {
+    padding: 1.5em;
+    margin-bottom: 2em;
+  }
+  
+  /* Form fields */
+  main form .form-control {
+    background-color:#add8e6;   
+    color:#f1f1f1;              
+  }
+  
+
+  main form .btn,
+  main section .btn {
+    background-color: #add8e6; 
+    color: white;
+    border: none;
+  }
+  

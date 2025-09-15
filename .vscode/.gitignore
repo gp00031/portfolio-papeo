@@ -1,0 +1,18 @@
+# Logs
+logs/
+*.logs
+
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+
+# Design files
+*.psd
+*.ai
+*.fig
+*.mov
+*.indd
