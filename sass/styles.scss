@@ -60,16 +60,18 @@ body {
 
   //contact page//
 
-  main h1{
+  main h1, h3{
     font-family: 'KoHo', sans-serif;
     color:#f1f1f1;
+    text-align: center;
   }
   main h2 {
     font-family: 'KoHo', sans-serif;
     color:#f1f1f1;
     font-weight: 700;     
     font-size: 7em;       
-    margin-bottom: 1em;      
+    margin-bottom: 1em; 
+    text-align: center;     
   }
   
 
@@ -103,3 +105,38 @@ main p {
     border: none;
   }
   
+  
+  //about section//
+
+  .about-main {
+    text-align: center;
+  
+    h1 {
+      font-family: 'Anton', sans-serif;
+      font-size: 7em;   
+      color: #f1f1f1;
+      margin-top: 0.5em;
+    }
+  
+    .greeting {
+      font-family: 'KoHo', sans-serif;
+      font-size: 1.5em;
+      color: #707070;
+      width: auto;      
+      line-height: 1.3;
+    }
+  
+    .profile-img {
+      margin: 1.5em;
+      width: 200px;
+      height: auto;
+    }
+  
+    .about-text {
+      font-family: 'KoHo', sans-serif;
+      font-size: 1.5em;
+      color: #f1f1f1;
+      width: auto;      
+      line-height: 1.3;
+    }
+  }
