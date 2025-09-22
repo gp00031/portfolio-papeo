@@ -1,161 +1,223 @@
-
 body {
-    background-color: #C5BABA; 
-  }
+  background-color: #C5BABA; 
+}
 
 
 .navbar {
-    background-color: #add8e6; 
-    padding: 1em ;
-  
-    .nav-link {
-      color: #f1f1f1;
-      font-weight: 500;
-  
-      &:hover {
-        color: #707070;
-      }
-    }
-  
-    .logo-img {
-      height: 50px; 
-      width: auto;
-    }
-  }
-  
-  
-  .main-title {
-    font-family: "Recursive", sans-serif;
-    font-size: 7em;
-    margin-bottom: 0.05em;
+  background-color: #add8e6; 
+  padding: 1em ;
+
+  .nav-link {
     color: #f1f1f1;
     font-weight: 500;
-  }
-  
-  .intro-text {
-    font-family: 'KoHo', sans-serif;
-    font-size: 2em;
-    margin-bottom: 4em;
-    color:#707070;
-  }
-  
- 
-  
-  // footer//
-  .footer {
-    background-color: #707070;
-    font-family: 'KoHo', sans-serif;
 
-     p {
-        color:#f1f1f1; 
-        margin-top: 1.5em;
-      }    
-  
-    .social-icons a {
-      margin: 1.5em;
-      color: #f1f1f1;
-      text-decoration: none;
+    &:hover {
+      color: #707070;
     }
   }
 
-
-  //contact page//
-
-  main h1, h3{
-    font-family: "Recursive", sans-serif;
-    color:#f1f1f1;
-    text-align: center;
-    font-weight: 500;
+  .logo-img {
+    height: 50px; 
+    width: auto;
   }
-  main h2 {
-    font-family: "Recursive", sans-serif;
-    color:#f1f1f1;
-    font-weight: 500;     
-    font-size: 7em;   
-    margin-top: 0.5em;    
-    margin-bottom: 1em; 
-    text-align: center;     
-  }
-  
-
-main p {
-    font-family: 'KoHo', sans-serif;
-    color:#f1f1f1;
-    font-size: 1.5em;
 }
 
-  
 
-  main form {
-    padding: 1.5em;
-    margin-bottom: 2em;
+.main-title {
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;
+  margin-bottom: 0.05em;
+  color: #f1f1f1;
+  font-weight: 500;
+}
+
+.intro-text {
+  font-family: 'KoHo', sans-serif;
+  font-size: 2em;
+  margin-bottom: 4em;
+  color:#707070;
+}
+
+
+
+// footer//
+.footer {
+  background-color: #707070;
+  font-family: 'KoHo', sans-serif;
+
+   p {
+      color:#f1f1f1; 
+      margin-top: 1.5em;
+    }    
+
+  .social-icons a {
+    margin: 1.5em;
+    color: #f1f1f1;
+    text-decoration: none;
   }
-  
-  main form p {
-    padding: 1.5em;
-    margin-bottom: 1.5em;
-  }
-  
-  main form .form-control {
-    background-color:#add8e6;   
-    color:#f1f1f1;              
-  }
-  
-
-  main form .btn {
-    background-color: #add8e6; 
-    color: white;
-    border: none;
-  }
-  
-  
-  //about section//
-
-  .about-main {
-    text-align: center;
-  
-    h1 {
-      font-family: "Recursive", sans-serif;
-      font-size: 7em;   
-      color: #f1f1f1;
-      margin-top: 0.5em;
-      font-weight: 500;
-    }
-  
-    .greeting {
-      font-family: 'KoHo', sans-serif;
-      font-size: 1.5em;
-      color: #707070;
-      width: auto;      
-      line-height: 1.3;
-    }
-  
-    .profile-img {
-      margin: 1.5em;
-      width: 200px;
-      height: auto;
-    }
-  
-    .about-text {
-      font-family: 'KoHo', sans-serif;
-      font-size: 1.5em;
-      color: #f1f1f1;
-      width: auto;      
-      line-height: 1.3;
-    }
-  }
-
-  //project 1(mantra page)
+}
 
 
- .mantra-title{
+//contact page//
+
+main h1, h3{
+  font-family: "Recursive", sans-serif;
+  color:#f1f1f1;
+  text-align: center;
+  font-weight: 500;
+}
+main h2 {
+  font-family: "Recursive", sans-serif;
+  color:#f1f1f1;
+  font-weight: 500;     
+  font-size: 7em;   
+  margin-top: 0.5em;    
+  margin-bottom: 1em; 
+  text-align: center;     
+}
+
+
+main p {
+  font-family: 'KoHo', sans-serif;
+  color:#f1f1f1;
+  font-size: 1.5em;
+}
+
+
+
+main form {
+  padding: 1.5em;
+  margin-bottom: 2em;
+}
+
+main form p {
+  padding: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+main form .form-control {
+  background-color:#add8e6;   
+  color:#f1f1f1;              
+}
+
+
+main form .btn {
+  background-color: #add8e6; 
+  color: white;
+  border: none;
+}
+
+
+//about section//
+
+.about-main {
   text-align: center;
 
-  h2{
+  h1 {
     font-family: "Recursive", sans-serif;
     font-size: 7em;   
     color: #f1f1f1;
     margin-top: 0.5em;
     font-weight: 500;
   }
- }
+
+  .greeting {
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.5em;
+    color: #707070;
+    width: auto;      
+  }
+
+  .profile-img {
+    margin: 1.5em;
+    width: 200px;
+    height: auto;
+  }
+
+  .about-text {
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    width: auto;      
+  }
+}
+
+
+
+//project 1(mantra page)
+
+
+.mantra-title{
+text-align: center;
+
+h2{
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;   
+  color: #f1f1f1;
+  margin-top: 0.5em;
+  font-weight: 500;
+}
+}
+
+
+// project images//
+main img {
+ max-width: 350px;  
+ width: 100%;       
+ height: auto;
+ margin-bottom: 1.5em;
+}
+
+.sketches img,
+.mockups img {
+ max-width: 250px;  
+}
+
+// ad poster page images//
+.ads-page{
+  text-align: center;
+  h2, h3, p {
+    text-align: center; 
+  }
+}
+
+.ads-page img {
+  max-width: 350px;  
+  width: 100%;        
+  height: auto;       
+}
+
+
+
+// star wars type posters//
+.sw-posters-page {
+text-align: center;
+
+  h2, h3, p {
+    text-align: center; 
+  }
+}
+
+.sw-posters-page img {
+  max-width: 350px;  
+  width: 100%;        
+  height: auto;       
+}
+
+
+//digital illustrations page/
+.digital-page img {
+  max-width: 350px;  
+  width: 100%;        
+  height: auto;       
+}
+
+
+
+.digital-page {
+  text-align: center;
+
+  h2, h3, p {
+    text-align: center; // force headings + paragraphs to center
+  }
+}
