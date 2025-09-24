@@ -108,6 +108,26 @@ main form .btn {
   border: none;
 }
 
+main form label {
+  color: #f1f1f1;
+  font-family: 'KoHo', sans-serif;
+  font-size: 1.2em;
+}
+
+.resume-section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+}
+
+.resume-section a {
+  display: block;
+  text-align: center;
+  margin: 1em auto;
+  font-weight: 500;
+}
+
 
 //about section//
 
@@ -221,9 +241,9 @@ text-align: center;
 
 //digital illustrations page/
 .digital-page img {
-  max-width: 350px;  
-  width: 100%;        
-  height: auto;       
+  max-width: 350px;
+  width: 100%;
+  height: auto;
 }
 
 
@@ -235,9 +255,49 @@ text-align: center;
     color: #f1f1f1;
     font-weight: 500; 
     text-align: center;
+    margin-top: 1.5em;
   }
 
-  h2, p {
+  h2{
+    margin-top: 1.5em;
     text-align: center; 
+  }
+}
+
+.digital-page p {
+  font-family: 'KoHo', sans-serif;
+  font-size: 1.5em;
+  color: #f1f1f1;
+  text-align: center;
+  margin-top: 0.5em; 
+}
+
+//dropcap page/
+
+
+.dropcap-page {
+  text-align: center;
+
+  h1 {
+    font-family: "Recursive", sans-serif;
+    font-size: 7em;    
+    color: #f1f1f1;
+    margin-top: 0.5em;
+    font-weight: 500;
+  }
+
+  p {
+    font-family: 'KoHo', sans-serif;
+    font-size: 1.5em;
+    color: #f1f1f1;
+    text-align: center;
+    margin-top: 1em;
+  }
+
+  img {
+    max-width: 350px;
+    width: 100%;
+    height: auto;
+    margin: 1.5em;
   }
 }
