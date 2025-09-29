@@ -1,17 +1,17 @@
 body {
-  background-color: #C5BABA;
+  background-color: black;
 }
 
 .navbar {
-  background-color: #add8e6;
+  background-color: #33b0da;
   padding: 1em;
 }
 .navbar .nav-link {
-  color: #f1f1f1;
+  color: black;
   font-weight: 500;
 }
 .navbar .nav-link:hover {
-  color: #707070;
+  color: #f1f1f1;
 }
 .navbar .logo-img {
   height: 50px;
@@ -30,15 +30,15 @@ body {
   font-family: "KoHo", sans-serif;
   font-size: 2em;
   margin-bottom: 4em;
-  color: #707070;
+  color: #f1f1f1;
 }
 
 .footer {
-  background-color: #707070;
+  background-color: #33b0da;
   font-family: "KoHo", sans-serif;
 }
 .footer p {
-  color: #f1f1f1;
+  color: black;
   margin-top: 1.5em;
 }
 .footer .social-icons a {
@@ -82,12 +82,12 @@ main form p {
 }
 
 main form .form-control {
-  background-color: #add8e6;
+  background-color: #33b0da;
   color: #f1f1f1;
 }
 
 main form .btn {
-  background-color: #add8e6;
+  background-color: #33b0da;
   color: white;
   border: none;
 }
@@ -98,13 +98,6 @@ main form label {
   font-size: 1.2em;
 }
 
-.resume-section img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 1.5em;
-}
-
 .resume-section a {
   display: block;
   text-align: center;
@@ -112,74 +105,69 @@ main form label {
   font-weight: 500;
 }
 
-.about-main {
-  text-align: center;
-}
 .about-main h1 {
   font-family: "Recursive", sans-serif;
   font-size: 7em;
   color: #f1f1f1;
   margin-top: 0.5em;
   font-weight: 500;
-}
-.about-main .greeting {
-  font-family: "KoHo", sans-serif;
-  font-size: 1.5em;
-  color: #707070;
-  width: auto;
-}
-.about-main .profile-img {
-  margin: 1.5em;
-  width: 200px;
-  height: auto;
+  text-align: center;
 }
 .about-main .about-text {
   font-family: "KoHo", sans-serif;
   font-size: 1.5em;
   color: #f1f1f1;
-  width: auto;
+  text-align: left;
+  max-width: 600px;
+  margin-left: 0;
+}
+.about-main .greeting {
+  text-align: center;
+  margin-bottom: 5em;
+}
+.about-main .profile-img {
+  margin: 1.5em auto;
+  max-width: 350px;
+  height: auto;
+  display: block;
 }
 
-.mantra-title {
+.mantra-page {
   text-align: center;
 }
-.mantra-title h2 {
+.mantra-page h2 {
   font-family: "Recursive", sans-serif;
   font-size: 7em;
   color: #f1f1f1;
   margin-top: 0.5em;
   font-weight: 500;
 }
-
-.case-study-page h2 {
-  font-family: "Recursive" sans-serif;
-  font-size: 7em;
-  color: #f1f1f1;
-  margin-top: 0.5em;
-  font-weight: 500;
-}
-
-.case-study-page p {
-  text-align: center;
+.mantra-page img {
+  margin: 1.5em auto;
+  max-width: 1000px;
 }
 
 .case-study-page h3 {
+  text-align: left;
   font-family: "Recursive", sans-serif;
-  font-size: 4em;
   color: #f1f1f1;
   font-weight: 500;
+  margin-top: 3em;
 }
-
-.case-study-page img {
-  width: 100%;
-  height: auto;
+.case-study-page h2 {
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;
+  color: #f1f1f1;
+  margin-top: 0.5em;
+  font-weight: 500;
 }
-
-.ads-page {
-  text-align: center;
-}
-.ads-page h2, .ads-page h3, .ads-page p {
-  text-align: center;
+.case-study-page p {
+  font-family: "KoHo", sans-serif;
+  color: #f1f1f1;
+  font-size: 1.5em;
+  text-align: left;
+  max-width: 600px;
+  margin-top: 1em;
 }
 
 .ads-page img {
@@ -188,17 +176,54 @@ main form label {
   height: auto;
 }
 
-.sw-posters-page {
+.ads-page h2 {
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;
+  color: #f1f1f1;
+  margin-top: 0.5em;
+  font-weight: 500;
   text-align: center;
 }
-.sw-posters-page h2, .sw-posters-page h3, .sw-posters-page p {
-  text-align: center;
+.ads-page h3 {
+  font-family: "Recursive", sans-serif;
+  font-size: 4em;
+  color: #f1f1f1;
+  font-weight: 500;
+  text-align: left;
+}
+.ads-page p {
+  font-family: "KoHo", sans-serif;
+  font-size: 1.5em;
+  color: #f1f1f1;
+  text-align: left;
 }
 
 .sw-posters-page img {
   max-width: 350px;
   width: 100%;
   height: auto;
+}
+
+.sw-posters-page h2 {
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;
+  color: #f1f1f1;
+  margin-top: 0.5em;
+  font-weight: 500;
+  text-align: center;
+}
+.sw-posters-page h3 {
+  font-family: "Recursive", sans-serif;
+  font-size: 4em;
+  color: #f1f1f1;
+  font-weight: 500;
+  text-align: left;
+}
+.sw-posters-page p {
+  font-family: "KoHo", sans-serif;
+  font-size: 1.5em;
+  color: #f1f1f1;
+  text-align: left;
 }
 
 .digital-page img {
@@ -212,20 +237,22 @@ main form label {
   font-size: 4em;
   color: #f1f1f1;
   font-weight: 500;
-  text-align: center;
-  margin-top: 1.5em;
+  text-align: left;
 }
 .digital-page h2 {
-  margin-top: 1.5em;
-  text-align: center;
+  font-family: "Recursive", sans-serif;
+  font-size: 7em;
+  color: #f1f1f1;
+  margin-top: 0.5em;
+  font-weight: 500;
 }
 
 .digital-page p {
   font-family: "KoHo", sans-serif;
   font-size: 1.5em;
   color: #f1f1f1;
-  text-align: center;
-  margin-top: 0.5em;
+  text-align: left;
+  margin-bottom: em;
 }
 
 .dropcap-page {
